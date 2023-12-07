@@ -1,0 +1,121 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #252b33;
+}
+main {
+  width: 100%;
+  height: fit-content;
+}
+
+main section {
+  width: 90%;
+
+  margin: 80px auto;
+}
+main section aside {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+}
+main section aside .wrapper {
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+main section aside .wrapper h1 {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+main section aside .wrapper div {
+  margin: 20px auto;
+  width: 80%;
+  display: flex;
+  background-color: none;
+  border-radius: 4px;
+  border: solid 1px #575f6b;
+  transition: 0.4s;
+}
+main section aside .wrapper div:hover {
+  box-shadow: 0px 0px 7px 1px white;
+}
+
+.fa-user,
+.fa-unlock-keyhole {
+  padding: 12px;
+  color: #575f6b;
+}
+main section aside .wrapper input {
+  width: 100%;
+  height: 40px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  font-size: 19px;
+  color: white;
+}
+.banner {
+  background-image: url(/assets/image/slots.png);
+  width: 400px;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-top: 27px;
+}
+main section .wrapper input::placeholder {
+  font-size: 19px;
+}
+
+.section_gift,
+.section_register {
+  border: none;
+}
+main section aside .wrapper button {
+  width: 100%;
+  height: 40px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.gift {
+  background-color: #575f6b;
+}
+.gift:hover {
+  background-color: #4a505a;
+}
+.register {
+  position: relative;
+  background-color: #189541;
+  width: 73%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 40px;
+  color: white;
+  border-radius: 10px;
+}
+.register:hover {
+  background-color: #0d702e;
+}
+
+.regis {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  color: white;
+  outline: none;
+  text-decoration: none;
+  left: 0px;
+  top: 0px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

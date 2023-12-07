@@ -1,0 +1,8 @@
+@media screen and (max-width: 556px) {
+  .banner {
+    background-image: url(/assets/image/slots.png);
+    width: 100%;
+
+    background-repeat: no-repeat;
+  }
+}
